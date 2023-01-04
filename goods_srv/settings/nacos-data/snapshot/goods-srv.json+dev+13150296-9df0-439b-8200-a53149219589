@@ -1,0 +1,17 @@
+{
+    "name":"goods-srv",
+    "tags":["python","srv"],
+    "mysql":{
+        "db":"mxshop_goods_srv",
+        "host":"192.168.18.160",
+        "port":3306,
+        "user":"root",
+        "password":"root"
+
+    },
+    "consul":{
+        "host":"192.168.18.160",
+        "port":8500
+    }
+
+}

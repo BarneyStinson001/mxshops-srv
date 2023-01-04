@@ -1,0 +1,24 @@
+  {
+    "name":"goods-srv",
+    "host":"192.168.18.179",
+    "tags":["gorm","srv","order"],
+    "mysql":{
+        "db":"mxshop_goods_srv",
+        "host":"192.168.18.160",
+        "port":3306,
+        "user":"root",
+        "password":"root"
+
+    },
+    "consul":{
+        "host":"192.168.18.160",
+        "port":8500
+    },
+    "inventory_srv":{
+        "name":"invenotry-srv"
+    },
+    "goods_srv":{
+        "name":"goods_srv"
+    }
+
+}
